@@ -1,0 +1,5 @@
+36.94.142.163:8000	Transparent	http
+113.89.54.12:4145	Elite	socks4
+109.70.189.51:3629	Elite	socks4
+109.75.35.12:3629	Elite	socks4
+27.159.167.197:1080	Elite	socks5

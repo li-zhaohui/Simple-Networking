@@ -1,0 +1,8 @@
+you need to develop a project that implements the main functionality of TCP (in contrast to UDP), namely, order-preserving lossless delivery, test it with synthetic test cases that simulate rare scenarios such as losing packets, and present the results in a well written project report.  You may use any high-level language such as Java, Python, C++, MATLAB, etc.
+The project report should contain:
+•	table of contents with page #s of different sections
+•	a number of numbered sections including introduction and one section each for a product life cycle stage e.g., requirements specification, functional specification, design, implementation, testing, deployment (results).
+•	a numbered section on conclusion and future extensions
+•	an unnumbered reference sections
+•	all references in the references section need to be cited in the body of the text
+A sample blank project report after removing most of the personal and technical information is placed in the "files" section.  You may use it as a template.

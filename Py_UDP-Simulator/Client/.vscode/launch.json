@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": ["image.png", "1010", "1", "3" ]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sender<UdpClient_95d28870>",
+            "request": "launch",
+            "mainClass": "Sender",
+            "projectName": "UdpClient_95d28870",
+            "args": ["image.png", "1010", "100", "10" ]
+        }
+    ]
+}

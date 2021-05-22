@@ -1,0 +1,190 @@
+﻿Python network script:
+
+Please comment your code,  and functions, 
+
+Phase (1) of the script:
+
+1) Script will be able to run on any platform (including Cloud(Debian)/Windows/Linux/Mac)
+2) Script will discover the network in the subnet mask
+3) Script will report device name/workstation name, IP address, status
+
+When the script is run:
+
+Message presented to the user: 
+
+*****This script will discover all the computers on the network, check their availability (offline/online) ***
+
+Main Menu:
+Q    - Quit
+SC  - Scan the network and availability
+LF  -  List all offline devices
+LN -  List all Online devices
+CI -   Check Internet (WAN) Connection
+
+Enter an option to continue -> SC 
+
+Scanning the whole network.... 
+
+Host name                                       IP Address           Status
+1 - Workstation1.abc.net               10.10.0.15           Online
+2 - Cisco 2521 Router                    10.10.0.1             Online
+3 - Cisco 1000 Switch                    10.10.0.2             Online
+4 - Cisco 1100 Switch                    10.10.0.4             Online
+5 - Workstation2.abc.net               10.10.0.16           Offline
+6 - Server.abc.net                            10.10.0.18           Offline
+7 - Workstation8.abc.net               10.10.0.15           Online
+8 - Workstation9.abc.net               10.10.0.15           Online
+9 - Workstation10.abc.net             10.10.0.15           Online
+
+
+Total devices: 20
+Online devices: 15
+Offline devices: 5
+
+Main Menu:
+Q    - Quit
+SC  - Scan the network and availability
+LF  -  List all offline devices
+LN -  List all Online devices
+CI -   Check Internet (WAN) Connection
+
+Enter an option to continue-> LF
+
+Listing Offline devices ...
+
+Host name                                       IP/Mac                Status
+1 - Workstation2.abc.net               10.10.0.18          Offline
+2 - Workstation3.abc.net               10.10.0.19          Offline
+3 - Workstation4.abc.net               10.10.0.19          Offline
+4 - Workstation5.abc.net               10.10.0.18          Offline
+5 - Workstation6.abc.net               10.10.0.19          Offline
+
+Total Offline devices: 5
+
+Offline Menu option: 
+M - Go to Main Menu
+1 - Check All offline devices  
+Q - Quit
+
+Enter an option to continue -> 1
+
+Checking offline devices .... in progress
+
+Host name                                       IP/Mac                Status
+1 - Workstation2.abc.net               10.10.0.18          Offline - Not responding 
+2 - Workstation3.abc.net               10.10.0.19          Offline - Not responding 
+3 - Workstation4.abc.net               10.10.0.19          Offline - Not responding 
+4 - Workstation5.abc.net               10.10.0.18          Offline - Not responding 
+5 - Workstation6.abc.net               10.10.0.19          Offline - Not responding 
+ 
+Offline Menu option: 
+M - Go to Main Menu
+1 - Check All offline devices  
+Q - Quit
+
+Enter an option to continue: M
+
+Main Menu:
+Q    - Quit
+SC  - Scan the network and availability
+LF  -  List all offline devices
+LN -  List all Online devices
+CI -   Check Internet (WAN) Connection
+
+Enter an option to continue -> CI
+
+Checking WAN connection....
+Internet (WAN) connection is UP, network is able to connect to the internet
+
+Main Menu:
+Q    - Quit
+SC  - Scan the network and availability
+LF  -  List all offline devices
+LN -  List all Online devices
+CI -   Check Internet (WAN) Connection
+
+Enter an option to continue: LN
+
+Scanning the network for online devices....
+
+Online device Menu
+
+Host name                                       IP Address           Status
+1 - Workstation1.abc.net               10.10.0.15           Online
+2 - Cisco 2521 Router                    10.10.0.1             Online
+3 - Cisco 1000 Switch                    10.10.0.2             Online
+4 - Cisco 1100 Switch                    10.10.0.4             Online
+5 - Workstation8.abc.net               10.10.0.15           Online
+6 - Workstation9.abc.net               10.10.0.15           Online
+7 - Workstation10.abc.net             10.10.0.15           Online
+
+Total online devices: 7
+
+Online Menu option: 
+M - Go to Main Menu
+1 - Check All Online devices  
+2 - Check 1  device
+Q- Quit 
+
+Enter an option to continue: 1 
+
+Checking all online devices .... 
+
+Host name                                       IP Address           Status
+1 - Workstation1.abc.net               10.10.0.15           Device Online
+2 - Cisco 2521 Router                    10.10.0.1              Device Online
+3 - Cisco 1000 Switch                    10.10.0.2              Device Online
+4 - Cisco 1100 Switch                    10.10.0.4              Device Online
+5 - Workstation8.abc.net               10.10.0.15            Device Online
+6 - Workstation9.abc.net               10.10.0.15            Device Online
+7 - Workstation10.abc.net             10.10.0.15            Device Online
+
+Online Menu option: 
+M - Go to Main Menu
+1 - Check All Online devices  
+2 - Check 1 device
+Q- Quit 
+
+Enter an option to continue: 1
+
+***Listing  all the Online devices 
+
+Host name                                       IP Address           Status
+1 - Workstation1.abc.net               10.10.0.15           Device Online
+2 - Cisco 2521 Router                    10.10.0.1              Device Online
+3 - Cisco 1000 Switch                    10.10.0.2              Device Online
+4 - Cisco 1100 Switch                    10.10.0.4              Device Online
+5 - Workstation8.abc.net               10.10.0.15            Device Online
+6 - Workstation9.abc.net               10.10.0.15            Device Online
+7 - Workstation10.abc.net             10.10.0.15            Device Online
+
+*** Enter device number to ping -> 6
+
+Checking the status of the device 
+
+Host name                                       IP Address            Status
+6 - Workstation9.abc.net               10.10.0.15            Device is online, but not responding to ping requests
+
+Online Menu option: 
+M - Go to Main Menu
+1 - Check All Online devices  
+2 - Check 1 device
+Q- Quit 
+
+Enter an option to continue: M
+
+Main Menu 
+Q    - Quit
+1  - Scan Entire network and availability
+2  - Lists all offline devices
+3  - Lists all Online devices
+4 - Check Internet (WAN) connection
+
+Enter an option to continue: Q
+Quitting the application ... 
+
+Network diagram is attached 
+ 
+**Import notes:
+1) The script should be able to work in any environment, Linux network, Windows network.
+2) The developer will need to provide the source code **
